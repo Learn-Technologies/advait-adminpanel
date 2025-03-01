@@ -1,0 +1,43 @@
+{
+  "name": "ecomm-adminpanel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/error-message": "^2.0.1",
+    "@hookform/resolvers": "^3.1.0",
+    "@material-tailwind/react": "^2.0.1",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "cookies-next": "^2.1.1",
+    "firebase": "^10.12.5",
+    "framer-motion": "^10.16.4",
+    "moment": "^2.30.1",
+    "next": "13.4.4",
+    "nextjs-progressbar": "^0.0.16",
+    "postcss": "8.4.23",
+    "pullstate": "^1.25.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-highlight-words": "^0.20.0",
+    "react-hook-form": "^7.44.1",
+    "react-icons": "^4.11.0",
+    "react-query": "^3.39.3",
+    "sweetalert2": "^11.7.5",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4",
+    "uuid": "^9.0.0",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/react-highlight-words": "^0.20.0",
+    "@types/uuid": "^9.0.1"
+  }
+}
