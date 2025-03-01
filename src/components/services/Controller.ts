@@ -1,5 +1,4 @@
 import { dbConfig } from "@/config";
-import VUtils from "../common/VUtils";
 import HttpService from "./HttpService";
 
 export class Controller {
