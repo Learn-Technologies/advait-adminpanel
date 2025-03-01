@@ -19,7 +19,7 @@ export default function HomePage() {
     if (contactList && contactList?.data?.length > 0) {
       setContactList(contactList.data.length);
     }
-  }, [contactList?.data]);
+  }, []);
   if (contactList.isLoading) return <Loading />;
   if (contactList.isError) return <>Error</>;
   async function onDeleteList(data: any) {
