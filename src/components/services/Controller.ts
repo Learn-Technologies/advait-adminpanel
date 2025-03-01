@@ -1,4 +1,4 @@
-import { dbConfig } from "@/config";
+import { dbConfig } from "@/src/config";
 import HttpService from "./HttpService";
 
 export class Controller {
