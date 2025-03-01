@@ -127,7 +127,7 @@ export default function ListItems(props: IProps) {
             { placement: "bottom-end" },
             <CiMenuKebab />,
             <div className="p-3 bg-secondary text-primary rounded-md">
-              {renderItems().map((item, index: number) => (
+              {actionName.map((item, index: number) => (
                 <React.Fragment key={index}>
                   <List
                     className={"p-0.5"}
