@@ -1,19 +1,9 @@
-// import React from "react";
-
-// export default function ReceiveEmailPage() {
-//   return <div>ReceiveEmailPage</div>;
-// }
-
 import React from "react";
 import Loading from "../common/Loading";
 import VUtils from "../common/VUtils";
 import VDataList from "../dataLIst/VDataList";
 import { FaRegEye } from "react-icons/fa";
 import VModal from "../common/modal/VModal";
-import {
-  useClassList,
-  useDeleteClassList,
-} from "../services/firebase/apis/class/QClass";
 import AddUpdateReceiveEmails from "./AddUpdateReceiveEmails";
 import {
   useDeleteReceiveEmails,

@@ -1,7 +1,6 @@
 import MainLayout from "@/layouts/MainLayout";
 import HomePage from "@/src/components/home/HomePage";
 import { getCookie } from "cookies-next";
-import LogInPage from "../components/login/LoginPage";
 
 export default function Home() {
   const isCookieToken = getCookie("token");
