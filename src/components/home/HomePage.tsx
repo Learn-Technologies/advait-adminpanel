@@ -1,13 +1,13 @@
 import React from "react";
+import { FaRegEye } from "react-icons/fa";
 import Loading from "../common/Loading";
+import VModal from "../common/modal/VModal";
 import VUtils from "../common/VUtils";
 import VDataList from "../dataLIst/VDataList";
-import { FaRegEye } from "react-icons/fa";
-import VModal from "../common/modal/VModal";
-import AddUpdateContact from "./AddUpdateContact";
-import { useContactList } from "../services/query/QContact";
-import ContactViewPage from "./ContactViewPage";
 import { setContactList } from "../pullState/store";
+import { useContactList } from "../services/query/QContact";
+import AddUpdateContact from "./AddUpdateContact";
+import ContactViewPage from "./ContactViewPage";
 export default function HomePage() {
   const contactList = useContactList();
   const [isMOdalOpen, setMOdalOpen] = React.useState<boolean>(false);
