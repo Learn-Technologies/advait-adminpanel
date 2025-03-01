@@ -1,10 +1,6 @@
 import VUtils from "@/src/components/common/VUtils";
 import enums from "@/src/components/enums/enums";
-import {
-  authStore,
-  logoutFirebase,
-  setSideDrawer,
-} from "@/src/components/pullState/store";
+import { authStore, setSideDrawer } from "@/src/components/pullState/store";
 import {
   IconButton,
   List,
@@ -32,7 +28,7 @@ export default function DrawerPage(props: ISideBar) {
   }
   async function onLogout() {
     if (!(await VUtils.showConfirm("Do you really want to Logout?"))) return;
-    await logoutFirebase();
+    // await logoutFirebase();
     return router.push("/");
   }
   function renderSideIconName(isName = true) {
