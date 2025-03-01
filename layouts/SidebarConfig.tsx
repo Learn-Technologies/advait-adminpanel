@@ -1,4 +1,3 @@
-import { PowerIcon } from "@heroicons/react/24/solid";
 import { MdContacts, MdEmail } from "react-icons/md";
 const sidebarConfig: any = [
   {

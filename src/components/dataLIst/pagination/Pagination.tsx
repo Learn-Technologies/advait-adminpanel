@@ -1,6 +1,6 @@
-import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
 import { Button } from "@material-tailwind/react";
 import React from "react";
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 
 type IProps = {
   postsPerPage: any;
@@ -48,7 +48,7 @@ export default function Pagination(props: IProps) {
               className="flex items-center gap-2 rounded-full text-primary"
               onClick={() => preNextPage("decrease")}
             >
-              <ArrowLeftIcon strokeWidth={2} className="h-4 w-4" />
+              <FaArrowCircleLeft strokeWidth={2} className="h-4 w-4" />
             </Button>
 
             <div className="flex w-48 justify-center">
@@ -80,7 +80,7 @@ export default function Pagination(props: IProps) {
               className="flex items-center gap-2 rounded-full text-primary"
               onClick={() => preNextPage("increase")}
             >
-              <ArrowRightIcon strokeWidth={2} className="h-4 w-4" />
+              <FaArrowCircleRight strokeWidth={2} className="h-4 w-4" />
             </Button>
           </ul>
         </nav>

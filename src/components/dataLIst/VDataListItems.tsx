@@ -1,4 +1,5 @@
-import { InboxIcon } from "@heroicons/react/24/solid";
+// import { InboxIcon } from "@heroicons/react/24/solid";
+import { FaInbox } from "react-icons/fa6";
 import { CardBody } from "@material-tailwind/react";
 import React from "react";
 import ListItems from "./ListItems";
@@ -32,7 +33,7 @@ export default function VDataListItems(props: IProps) {
     return (
       <CardBody className="px-0">
         <div className="flex flex-col items-center justify-center h-full">
-          <InboxIcon className="h-10 w-10 text-5xl text-primary" />
+          <FaInbox className="h-10 w-10 text-5xl text-primary" />
           <p className="text-primary text-2xl">{props.error?.exMsg}</p>
         </div>
       </CardBody>
@@ -41,7 +42,7 @@ export default function VDataListItems(props: IProps) {
     return (
       <CardBody className="px-0">
         <div className="flex flex-col items-center justify-center h-full">
-          <InboxIcon className="h-10 w-10 text-5xl text-primary" />
+          <FaInbox className="h-10 w-10 text-5xl text-primary" />
           <p className="text-primary text-2xl">No Data Found!</p>
         </div>
       </CardBody>
